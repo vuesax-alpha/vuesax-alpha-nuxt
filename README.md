@@ -1,6 +1,6 @@
 # Vuesax Alpha Nuxt
 
-> [Vuesax Alpha](https://vuesax-alpha.org) module for [Nuxt](https://nuxt.com)
+> [Vuesax Alpha](https://vuesax.space) module for [Nuxt](https://nuxt.com)
 
 ## Features
 
