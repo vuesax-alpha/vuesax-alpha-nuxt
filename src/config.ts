@@ -29,6 +29,7 @@ const allSubComponents: Record<string, string[]> = {
   VsButton: ['VsButtonGroup'],
   VsCard: ['VsCardGroup'],
   VsCheckbox: ['VsCheckboxGroup'],
+  VsNavbar: ['VsNavbarItem', 'VsNavbarGroup'],
   VsSelect: ['VsOption', 'VsOptionGroup'],
   VsTable: ['VsTd', 'VsTh', 'VsTr']
 }
