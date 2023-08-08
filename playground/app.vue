@@ -1,4 +1,15 @@
 <script setup lang="ts">
+const navs = [
+  {
+    name: 'Main page'
+  },
+  {
+    name: 'Discover'
+  }
+]
+
+const navigateLink = ref('')
+
 onMounted(() => {
   VsNotification({
     title: 'Success',
@@ -11,12 +22,19 @@ onMounted(() => {
 <template>
   <section>
     <section class="mb-5">
-      <vs-button>
-        Click me
-        <!-- <vs-icon>
-          <vs-icon-home />
-        </vs-icon> -->
-      </vs-button>
+      <vs-navbar v-model="navigateLink" center-collapsed left-collapsed>
+        <vs-navbar-item v-for="(nav, i) in navs" :id="nav.name" :key="i">
+          {{ nav.name }}
+        </vs-navbar-item>
+
+        <template #right>
+          <vs-button icon type="transparent" color="dark">
+            <vs-icon>
+              <vs-icon-bell />
+            </vs-icon>
+          </vs-button>
+        </template>
+      </vs-navbar>
     </section>
   </section>
 </template>
