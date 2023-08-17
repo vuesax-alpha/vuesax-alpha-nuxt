@@ -19,7 +19,7 @@ export interface Options extends TransformOptions {
   /**
    * A list of components that need to be automatically imported externally.
    *
-   * @default 'from vuesax-alpha/es/packages/components'
+   * @default 'from vuesax-alpha/es/components'
    *
    * If there are components that are not imported automatically from Vuesax Alpha, you need to add the component name here.
    */

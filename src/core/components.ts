@@ -21,7 +21,7 @@ export function resolveComponents (config: Options) {
     const componentName = subComponentsMap[name] || name
     const dir = hyphenate(componentName.slice(2))
     const filePath = from !== iconLibraryName
-      ? `${libraryName}/es/packages/components/${dir}/index`
+      ? `${libraryName}/es/components/${dir}/index`
       : from
 
     addComponent({

@@ -13,7 +13,7 @@ specifiers:
   typescript: ^4.9.4
   unplugin: ^1.0.1
   vue: ^3.2.45
-  vuesax-alpha: 0.2.0-beta.28
+  vuesax-alpha: 0.2.0-beta.51
 
 dependencies:
   '@nuxt/kit': 3.6.1
@@ -30,7 +30,7 @@ devDependencies:
   nuxt: 3.6.1_nuhvzksnz3oa22qlp6qcqjnjby
   typescript: 4.9.5
   vue: 3.3.4
-  vuesax-alpha: 0.2.0-beta.28_vue@3.3.4
+  vuesax-alpha: 0.2.0-beta.51_vue@3.3.4
 
 packages:
 
@@ -1657,6 +1657,14 @@ packages:
 
   /@vue/shared/3.3.4:
     resolution: {integrity: sha512-7OjdcV8vQ74eiz1TZLzZP4JwqM5fA94K6yntPS5Z25r9HDuGNzaGdgvwKYq6S+MxwF0TFRwe50fIR/MYnakdkQ==}
+    dev: true
+
+  /@vuesax-alpha/icons-vue/0.0.2-beta.11_vue@3.3.4:
+    resolution: {integrity: sha512-tmTXL8sC0hdNGtqSUyh0sfnS9WYaNG/L0yP8uwkJuQqRh70DMUXsj3WU4JWEwm0Nv+aTRKSyGDDWUhauUsqLGw==}
+    peerDependencies:
+      vue: ^3.2.0
+    dependencies:
+      vue: 3.3.4
     dev: true
 
   /@vuesax-alpha/icons-vue/0.0.2-beta.9_vue@3.3.4:
@@ -6624,14 +6632,15 @@ packages:
       '@vue/shared': 3.3.4
     dev: true
 
-  /vuesax-alpha/0.2.0-beta.28_vue@3.3.4:
-    resolution: {integrity: sha512-JWufp4dFb9QHJMjnTWITS8m9NOEE/5Hdg9Ko2YpogIG3XQYP3LDYtDbiza4Ngb5IywJZmWJWau41b0mt3aRDRA==}
+  /vuesax-alpha/0.2.0-beta.51_vue@3.3.4:
+    resolution: {integrity: sha512-W/lEi0J8JYnfkEb6IeSq+z5FiRPrt/n0KWlM86HBPS6DFiw5CfM4QY/smSRO2o6yRtSZwlXIMrwgIPCw62h1Nw==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@ctrl/tinycolor': 3.6.0
       '@types/lodash': 4.14.195
       '@types/lodash-es': 4.17.7
+      '@vuesax-alpha/icons-vue': 0.0.2-beta.11_vue@3.3.4
       '@vueuse/core': 9.13.0_vue@3.3.4
       async-validator: 4.2.5
       dayjs: 1.11.9
