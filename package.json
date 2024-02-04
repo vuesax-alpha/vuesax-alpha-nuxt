@@ -1,6 +1,6 @@
 {
   "name": "@vuesax-alpha/nuxt",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Vuesax Alpha module for Nuxt",
   "license": "MIT",
   "type": "module",
